@@ -2,33 +2,39 @@
     text-decoration: none;
     color: #7af;
     margin: 10px;
+    font-size: 14px;
 }
 
 .link:hover {
     color: #c9f;
 }
+
 .active {
     color: #5ff;
 }
 
 .block {
-    width: 21px;
-    height: 21px;
-
+    width: 0;
+    height: 0;
     margin: 10px;
-
-    background: #99ff99;
+    border: 10px solid transparent;
+    border-left: 10px solid #99ff99;
+    /*background: #99ff99;*/
 }
 
 .header {
     display: flex;
-    width: 280px;
-
+    width: 310px;
     transition-duration: 500ms;
-    transform: translate(-220px);
+    transform: translate(-260px);;
 }
 
 .header:hover {
     transition-duration: 500ms;
     transform: translate(0);
+}
+
+.header:hover .block{
+transition-duration: 500ms;
+    transform: rotate(180deg);
 }

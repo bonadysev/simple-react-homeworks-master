@@ -19,7 +19,9 @@ function HW4() {
     const [checked, setChecked] = useState<boolean>(false)
     const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked)
 
-    return (
+    console.log(checked)
+
+        return (
         <div>
             <hr/>
             homeworks 4
@@ -53,6 +55,10 @@ function HW4() {
 
                 <SuperButton disabled>
                     disabled
+                </SuperButton>
+
+                <SuperButton className={s.zzz}>
+                    classname
                 </SuperButton>
 
                 {/*----------------------------------------------------*/}

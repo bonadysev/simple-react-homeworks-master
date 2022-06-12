@@ -6,25 +6,25 @@
 }
 
 
-.checkbox {
-    appearance: none;
+/*.checkbox {*/
+/*    appearance: none;*/
 
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    background-color: #335533;
-}
+/*    width: 20px;*/
+/*    height: 20px;*/
+/*    margin-right: 10px;*/
+/*    background-color: #335533;*/
+/*}*/
 
-.checkbox:checked {
-    appearance: none;
-    background-image: url("checked.png");
+/*.checkbox:checked {*/
+/*    appearance: none;*/
+/*    background-image: url("checked.png");*/
 
-}
+/*}*/
 
-.checkbox:focus {
-    outline: #99ff99 solid 1px;
-}
+/*.checkbox:focus {*/
+/*    outline: #99ff99 solid 1px;*/
+/*}*/
 
-.spanClassName {
+/*.spanClassName {*/
 
-}
+/*}*/
