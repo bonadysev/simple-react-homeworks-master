@@ -15,8 +15,8 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
         ...restProps
     }
 ) => {
-    const mappedOptions: any[] = options ? options.map((ob, i) => (
-        <option className={s.options} key={ob + '-' + i} value={ob}>{ob}</option>
+    const mappedOptions: any[] = options ? options.map((o, i) => (
+        <option className={s.options} key={o + '-' + i} value={o}>{o}</option>
     )) : []; // map options with key
 
     const onChangeCallback = (e: ChangeEvent<HTMLSelectElement>) => {
@@ -27,7 +27,7 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
     const finalSelectCN = s.select + (
         className
             ? ' ' + className
-            : ""
+            : ''
     )
 
     return (
