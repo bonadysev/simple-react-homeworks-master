@@ -1,7 +1,7 @@
 .select {
     width: 90px;
     padding: 5px;
-    padding-right: 30px;
+    padding-right: 20px;
 
     cursor: pointer;
     appearance: none;
@@ -10,7 +10,7 @@
     /*background-position: right .7em top 30%, 0 0;*/
     /*background-size: .65em auto, 100%;*/
 
-    border: 2px inset rgb(118,118,118);
+    border: 2px inset rgb(21, 20, 20);
     color: #9791c1;
 }
 
