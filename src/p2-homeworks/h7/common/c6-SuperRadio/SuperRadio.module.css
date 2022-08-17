@@ -1,0 +1,22 @@
+.radio {
+    appearance: none;
+    height: 10px;
+    width: 10px;
+
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    background: darkgreen;
+}
+
+.radio:hover {
+    border: 2px solid lightgray;
+}
+
+.radio:focus {
+    border: 2px solid gold;
+}
+
+.label {
+    cursor: pointer;
+}

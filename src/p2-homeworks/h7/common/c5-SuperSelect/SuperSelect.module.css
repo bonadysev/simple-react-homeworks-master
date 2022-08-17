@@ -1,0 +1,35 @@
+.select {
+    width: 90px;
+    padding: 5px;
+    padding-right: 30px;
+
+    cursor: pointer;
+    appearance: none;
+    background-color: yellow;
+    /*background-repeat: no-repeat,repeat;*/
+    /*background-position: right .7em top 30%, 0 0;*/
+    /*background-size: .65em auto, 100%;*/
+
+    border: 2px inset rgb(118,118,118);
+    color: #9791c1;
+}
+
+.select:focus {
+    outline: none;
+    border: #99ff99 solid 2px;
+}
+
+.option {
+    color: black;
+    background: #41a48d;
+}
+.option:checked {
+    background: black;
+    color: #41a48d;
+}
+
+.option.hover {
+    box-shadow: 0 0 10px 100px yellowgreen inset;
+    transition: all .2s ease-in-out;
+    background: red;
+}
