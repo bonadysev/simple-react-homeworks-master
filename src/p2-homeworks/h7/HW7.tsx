@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import SuperSelect from './common/c5-SuperSelect/SuperSelect'
-import MySuperRadio from './common/c6-SuperRadio/SuperRadio'
+import SuperRadio from './common/c6-SuperRadio/SuperRadio'
 
 const arr = ['x', 'y', 'z']
 
@@ -21,7 +21,7 @@ function HW7() {
                 />
             </div>
             <div>
-                <MySuperRadio
+                <SuperRadio
                     name={'radio'}
                     options={arr}
                     value={value}
